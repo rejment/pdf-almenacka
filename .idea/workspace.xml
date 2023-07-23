@@ -1,22 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4d64753e-1aaa-4175-8d30-d90cea645f10" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/NotoSerif-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/NotoSerif-BoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/NotoSerif-Italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/NotoSerif-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/januari.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kalender.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/pdfbox-app-3.0.0-alpha3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/bachata/kalender/Kalender.java" afterDir="false" />
+    <list default="true" id="4d64753e-1aaa-4175-8d30-d90cea645f10" name="Changes" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/img/kalender2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bachata/kalender/KalenderA4Liggande.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bachata/kalender/Namnsdag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bachata/kalender/Kalender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bachata/kalender/Kalender.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,22 +38,71 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "last_opened_file_path": "/Users/dre/projects/kalender/img"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "TEXT"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/img" />
+      <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/fonts" />
       <recent name="$PROJECT_DIR$/lib" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.bachata.kalender" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Kalender">
     <configuration name="Kalender" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.bachata.kalender.Kalender" />
+      <module name="kalender" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bachata.kalender.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KalenderA4Liggande" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bachata.kalender.KalenderA4Liggande" />
+      <module name="kalender" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bachata.kalender.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Namnsdag" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bachata.kalender.Namnsdag" />
+      <module name="kalender" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bachata.kalender.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRead" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bachata.kalender.TestRead" />
       <module name="kalender" />
       <extension name="coverage">
         <pattern>
@@ -77,6 +117,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Kalender" />
+        <item itemvalue="Application.KalenderA4Liggande" />
+        <item itemvalue="Application.Namnsdag" />
+        <item itemvalue="Application.TestRead" />
       </list>
     </recent_temporary>
   </component>
@@ -89,6 +132,14 @@
       <option name="presentableId" value="Default" />
       <updated>1670676700466</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1671692967727</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1671692967727</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -101,5 +152,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
 </project>
